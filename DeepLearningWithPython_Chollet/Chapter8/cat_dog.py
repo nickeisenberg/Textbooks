@@ -75,4 +75,3 @@ test_model = keras.models.load_model('convnet_from_scrath.keras')
 test_loss, test_acc = test_model.evaluate(test_dataset)
 print(f'Test accuracy: {test_acc: .3f}')
 
-
