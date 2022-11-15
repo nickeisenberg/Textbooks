@@ -50,7 +50,7 @@ test_dataset = image_dataset_from_directory(
 
 callbacks = [
     keras.callbacks.ModelCheckpoint(
-        filepath='convnet_from_scrath.keras',
+        filepath='convnet_from_scrath_with_aug.keras',
         save_best_only=True,
         monitor='val_loss')
  ]
