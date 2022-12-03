@@ -1,0 +1,1 @@
+chapter 10 stuff is in the kaggle directory... the temperature prediction example.
