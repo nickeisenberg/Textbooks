@@ -7,8 +7,8 @@ pr_out <- prcomp(USArrests, scale = TRUE)
 
 names(pr_out)
 
-pr_out['center']
-pr_out['scale']
+pr_out["center"]
+pr_out["scale"]
 
 dim(pr_out$rotation)
 dim(pr_out$x)
